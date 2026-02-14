@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title>Cabin</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+
+    <link href="styles.css" rel="stylesheet" />
+
+  </head>
+
+  <link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet">
+  <link
+  href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap"
+  rel="stylesheet"
+/>
+  <body class="cabin-body">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html">Cabin</a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#siteNav"
+        aria-controls="siteNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="siteNav">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Cabin</a></li>
+          <li class="nav-item"><a class="nav-link" href="art.html">Art</a></li>
+          <li class="nav-item"><a class="nav-link" href="poetry.html">Poetry</a></li>
+          <li class="nav-item"><a class="nav-link" href="bakery.html">Bakery</a></li>
+          <li class="nav-item"><a class="nav-link" href="valentine.html">Valentine</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <header class="hero">
+      <div class="container py-5">
+        <h1 class="display-4 mb-2">Cabin Woman</h1>
+        <p class="lead mb-4">
+          A mini homepage built while learning web development — a tiny glimpse of it all
+        </p>
+
+        <p class="small text-muted mb-0">
+          Made with love, February 14th
+        </p>
+      </div>
+    </header>
+
+    <main class="container my-5">
+      <section class="mb-4">
+        <h2 class="h4">Home Page</h2>
+        <p>
+          Here I begin to explain myself in web format, and here to experiment and create.
+        </p>
+        <p class="mb-0">
+          There are a few rooms in this cabin — take a look around.
+        </p>
+      </section>
+
+      <section class="mb-4">
+        <h2 class="h4">Rooms</h2>
+        <div class="row">
+          <div class="col-md-6 col-lg-3 mb-3">
+            <article class="card room-card h-100">
+              <div class="card-body">
+                <h3 class="h6 card-title mb-2">The Studio</h3>
+                <p class="card-text small">Take a peek at some creations</p>
+                <a class="btn btn-sm btn-outline-dark" href="art.html">Visit</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-3 mb-3">
+            <article class="card room-card h-100">
+              <div class="card-body">
+                <h3 class="h6 card-title mb-2">Poetry Nook</h3>
+                <p class="card-text small">The place of babble on</p>
+                <a class="btn btn-sm btn-outline-dark" href="poetry.html">Visit</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-3 mb-3">
+            <article class="card room-card h-100">
+              <div class="card-body">
+                <h3 class="h6 card-title mb-2">Bakeshop</h3>
+                <p class="card-text small">Sweets, treats, and love</p>
+                <a class="btn btn-sm btn-outline-dark" href="bakery.html">Visit</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-3 mb-3">
+            <article class="card room-card h-100">
+              <div class="card-body">
+                <h3 class="h6 card-title mb-2">Valentine</h3>
+                <p class="card-text small">A small love shrine (the card).</p>
+                  <a href="bakery.html"
+                  class="btn btn-sm btn-outline-dark"
+                  aria-label="Go to the bakery">❤️</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="h4">User Review</h2>
+        <blockquote class="blockquote mb-0">
+          <p class="mb-0">This is the best dam site</p>
+          <footer class="blockquote-footer">interwebeaver</footer>
+        </blockquote>
+      </section>
+    </main>
+
+    <footer class="py-4 bg-light">
+      <div class="container d-flex justify-content-between align-items-center flex-wrap">
+        <small class="text-muted">© 2026 Cabin Woman</small>
+        <a class="small" href="bakery.html">Go to the bakery →</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+
