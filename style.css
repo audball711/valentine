@@ -1,0 +1,539 @@
+/* 1) Base tag selector */
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #fbfaf7;
+}
+
+.navbar {
+  background-color: #6E2B36 !important; /* deep berry */
+  font-family: "La Belle Aurore", cursive;
+}
+.navbar .nav-link,
+.navbar .navbar-brand {
+  color: #f7efe9 !important; /* cream */
+}
+.navbar .nav-link:hover {
+  color: #f3c4d0 !important; /* soft pink */
+}
+
+.navbar .nav-item.active .nav-link {
+  color: #f3c4d0 !important;
+}
+
+/* 2) Hero (Cabin page) */
+.hero {
+  background: linear-gradient(
+    135deg,
+    rgba(220, 53, 69, 0.08),
+    rgba(255, 193, 7, 0.08)
+  );
+}
+
+.cabin-body h1,
+.cabin-body h2 {
+  font-family: "Reenie Beanie", cursive;
+  color: #611427; /* berry */
+}
+/* Cabin body text */
+.cabin-body p {
+  font-family: "Special Elite", monospace;
+  letter-spacing: 0.3px;
+  font-size: .8rem;
+}
+
+
+.cabin-body .btn:hover {
+  background-color: #611427; /* berry */
+  border-color: #611427;
+  color: #f7efe9; /* cream */
+}
+
+.cabin-body .btn {
+  font-family: "Special Elite", monospace;
+  letter-spacing: 0.4px;
+}
+
+/* 3) Room cards */
+.room-card {
+  border-radius: 16px;
+}
+
+/* 4) Callout boxes */
+.callout {
+  padding: 14px;
+  border-radius: 14px;
+  background-color: #ffffff;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.08);
+}
+
+footer small,
+footer .small {
+  font-family: "Special Elite", monospace;
+  font-size: .7rem;
+  color: #611427;
+}
+
+/* =========================
+   BAKERY PAGE (Valentine overlay)
+   ========================= */
+/* bakery intro section */
+.bakery-intro {
+background-color: rgba(255, 255, 255, 0.6);
+box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+padding: 20px;
+border-radius: 18px;
+text-align: center;
+}
+/* Bakery page title */
+.bakery-title {
+  font-family: "Reenie Beanie", cursive;
+  font-size: 3rem;
+  margin-bottom: 8px;
+  color: #611427; /* deep burgundy */
+}
+.grand-open {
+  font-family: "Special Elite", monospace;
+  letter-spacing: 0.4px;
+  color: #611427; /* berry */
+  opacity: 0.7;
+  margin-top: 4px;
+}
+
+/* Bakery description text */
+.bakery-description {
+  font-family: "Special Elite", monospace;
+  font-size: 0.8rem;
+  color: #4b1f2a;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.bakery-body {
+  background-color: #f7efe9; /* valentine overlay cream */
+}
+
+/* Chalkboard menu */
+.chalkboard {
+  padding: 18px;
+  border-radius: 16px;
+  background-color: #d99c9c; /* rose chalkboard */
+  color: #f7efe9; /* cream “chalk” */
+  border: 2px solid rgba(247, 239, 233, 0.25);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.18);
+}
+
+.chalk-title {
+  font-family: "Reenie Beanie", cursive;
+  font-size: 2rem;
+  letter-spacing: 0.5px;
+  text-align: center;
+  margin-bottom: 8px;
+  line-height: 1;
+}
+
+.chalk-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+
+  font-family: "Special Elite", monospace;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+}
+
+.chalk-list li {
+  opacity: 0.9;
+  padding: 6px 0;
+  border-bottom: 1px dashed rgba(247, 239, 233, 0.25);
+}
+
+.chalk-list li:last-child {
+  border-bottom: none;
+}
+
+/* Cupboard (Valentine special reveal) */
+.cupboard {
+  padding: 18px;
+  border-radius: 18px;
+  background-color: #611427; /* deep burgundy */
+  color: #f7efe9; /* cream text */
+  border: 1px solid rgba(220, 53, 69, 0.18);
+  text-align: center;
+}
+
+/* Valentine special heading + text inside cupboard */
+.special-title {
+  font-family: "Reenie Beanie", cursive;
+  font-size: 2.2rem;
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.special-text {
+  font-family: "Special Elite", monospace;
+  font-size: 0.95rem;
+  letter-spacing: 0.4px;
+  text-align: center;
+}
+
+/* Revealed card inside cupboard */
+.cupboard .card {
+  background-color: #f7efe9; /* cream */
+  color: #4b1f2a; /* dark berry text */
+  border: none;
+}
+
+.cupboard .card p,
+.cupboard .card h3 {
+  color: #4b1f2a;
+  font-family: "Special Elite", monospace;
+
+}
+
+/* Override Bootstrap blue button ONLY inside the cupboard */
+.cupboard .btn-primary {
+  background-color: #c23b5a;
+  border: none;
+  font-family: "Special Elite", monospace;
+
+}
+
+.cupboard .btn-primary:hover {
+  background-color: #a8324d;
+}
+
+/* Cake button (circle heart/envelope) */
+.cake-btn {
+  background-color: #f3c4d0; /* light pink */
+  color: #4b1f2a; /* dark berry (safe if you ever use text) */
+  border: none;
+
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+
+  font-size: 1.8rem;
+  cursor: pointer;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+}
+
+.cake-btn:hover {
+  background-color: #a8324d;
+  transform: translateY(-1px);
+}
+.cake-btn:focus,
+.cake-btn:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(168, 50, 77, 0.45);
+}
+#cakeCard {
+  transition: opacity 0.2s ease;
+}
+
+/* footer */
+
+footer a {
+  color: #611427; /* berry */
+}
+
+footer a:hover {
+  color: #a8324d;
+  text-decoration: none;
+}
+
+
+/* =========================
+   VALENTINE "UNFOLDING PAPER"
+   ========================= */
+
+.valentine-title {
+  font-family: "Reenie Beanie", cursive;
+  font-size: 3.2rem;
+  color: #611427;
+  margin-bottom: 6px;
+}
+
+.valentine-subtitle {
+  font-family: "Special Elite", monospace;
+  color: #4b1f2a;
+  letter-spacing: 0.3px;
+}
+
+.paper-stage {
+  display: flex;
+  justify-content: center;
+  padding: 18px 0;
+}
+
+.paper {
+  width: 100%;
+  max-width: 720px;
+  background-color: rgba(247, 239, 233, 0.96);
+  color: #4b1f2a;
+  border-radius: 18px;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.18);
+  border: 1px solid rgba(75, 31, 42, 0.12);
+
+  transform-origin: top center;
+  transform: perspective(900px) rotateX(-18deg) scaleY(0.25);
+  opacity: 0;
+
+  animation: unfoldPaper 1100ms cubic-bezier(0.2, 0.9, 0.2, 1) forwards;
+  animation-delay: 120ms;
+}
+
+.paper-inner {
+  padding: 26px 22px;
+}
+
+.paper-heading {
+  font-family: "La Belle Aurore", cursive;
+  font-size: 2.4rem;
+  margin-bottom: 10px;
+  color: #611427;
+}
+
+.paper-inner p {
+  font-family: "La Belle Aurore", cursive;
+  letter-spacing: 0.7px;
+  margin-bottom: 14px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+
+}
+
+.paper .paper-signoff {
+  font-family: "La Belle Aurore", cursive;
+  font-size: 2rem;
+  margin-top: 16px;
+  color: #611427;
+}
+
+
+/* Custom berry button */
+.berry-btn {
+  font-family: "Special Elite", monospace;
+  letter-spacing: 0.35px;
+
+  background-color: #ffffff;
+  color: #611427;
+
+  border: 1px solid rgba(97, 20, 39, 0.4);
+  border-radius: 14px;
+  padding: 10px 16px;
+
+  box-shadow: 0 6px 14px rgba(97, 20, 39, 0.35);
+
+  transition: transform 0.15s ease,
+              box-shadow 0.15s ease,
+              background-color 0.15s ease;
+}
+
+.berry-btn:hover {
+  background-color: ##F8EDEF;
+  box-shadow: 0 10px 22px rgba(97, 20, 39, 0.45);
+  transform: translateY(-1px);
+  color: #611427;
+}
+.berry-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 10px rgba(97, 20, 39, 0.3);
+}
+
+
+a.btn.btn-primary:focus-visible {
+  outline: 2px solid #ec4899;
+  outline-offset: 3px;
+}
+
+@keyframes unfoldPaper {
+  to {
+    transform: perspective(900px) rotateX(0deg) scaleY(1);
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .paper {
+    animation: none;
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.heart-link {
+  font-size: 2.5rem;
+
+  width: 90px;
+  height: 90px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  border: 2px solid rgba(236, 72, 153, 0.4);
+
+  text-decoration: none;
+  color: inherit;
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.heart-link:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 0 8px rgba(236, 72, 153, 0.15);
+  border-color: rgba(236, 72, 153, 0.7);
+}
+
+.heart-link:active {
+  transform: scale(0.95);
+}
+.heart-link,
+.heart-link:hover,
+.heart-link:focus,
+.heart-link:active,
+.heart-link:visited {
+  text-decoration: none;
+}
+.heart-link {
+  -webkit-tap-highlight-color: transparent;
+}
+
+
+
+
+/*carousel */
+
+.carousel img {
+  max-height: 80vh;
+  object-fit: contain;
+}
+/* =========================
+   UNDER CONSTRUCTION PAGES
+   ========================= */
+
+.under-construction {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.construction-card {
+  background-color: rgba(247, 239, 233, 0.85); /* soft paper */
+  border-radius: 18px;
+  padding: 28px 22px;
+  max-width: 420px;
+  text-align: center;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+  border: 1px solid rgba(75, 31, 42, 0.12);
+}
+
+.construction-icon {
+  font-size: 2.4rem;
+  margin-bottom: 8px;
+}
+
+/* Handwritten heading */
+.construction-title {
+  font-family: "Reenie Beanie", cursive;
+  font-size: 2.6rem;
+  color: #611427; /* berry */
+  margin-bottom: 6px;
+}
+
+/* Typewriter body text */
+.construction-text {
+  font-family: "Special Elite", monospace;
+  font-size: 0.95rem;
+  color: #4b1f2a;
+  letter-spacing: 0.3px;
+  margin-bottom: 12px;
+}
+
+
+.under-construction .btn:hover {
+  background-color: #611427; /* berry */
+  border-color: #611427;
+  color: #f7efe9; /* cream */
+}
+.under-construction .btn {
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Optional gentle float for the icon */
+.construction-icon {
+  animation: floatIcon 2.6s ease-in-out infinite;
+}
+
+@keyframes floatIcon {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+/* carousel */
+.memories-page {
+  background-color: #fffaf7; /* soft paper */
+  font-family: "La Belle Aurore", cursive;
+}
+
+.memories-page h1 {
+  letter-spacing: 0.5px;
+}
+
+
+.memories-font{
+  font-family: "La Belle Aurore", cursive;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 24px;
+  height: 24px;
+  background-size: 100% 100%;
+  opacity: 0.6;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 10%;
+}
+
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon {
+  opacity: 0.9;
+}
+
+
+/* =========================
+   GLOBAL UTILITIES
+   ========================= */
+
+/* Hidden utility class (used by JS reveal) */
+.hidden {
+  display: none;
+}
+
+/* Poetry spacing */
+.poem {
+  padding: 10px 0;
+}
+
+/* Valentine shrine card */
+.shrine-card {
+  border-radius: 18px;
+}
+
