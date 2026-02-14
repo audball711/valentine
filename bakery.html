@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title>Bakery • Cabin</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet">
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+
+  <body class="bakery-body">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html">Cabin</a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#siteNav"
+        aria-controls="siteNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="siteNav">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Cabin</a></li>
+          <li class="nav-item"><a class="nav-link" href="art.html">Art</a></li>
+          <li class="nav-item"><a class="nav-link" href="poetry.html">Poetry</a></li>
+          <li class="nav-item"><a class="nav-link" href="bakery.html">Bakery</a></li>
+          <li class="nav-item"><a class="nav-link" href="valentine.html">Valentine</a></li>
+        </ul>
+
+      </div>
+    </nav>
+
+    <main class="container my-5">
+      <section class="bakery-intro mb-4">
+        <h1 class="bakery-title">Berry &amp; Rye Bakeshop</h1>
+          <h2 class="h5 grand-open">Vday Grand Opening!</h2>
+          <p class="bakery-description">
+            Here we make mini pies, muffins, cookies, bagels, biscuits, and breads.
+            We take them to the market in the summers and eat them ourselves in the winters.
+            Please enjoy the scenery as you take a look around.
+          </p>
+      </section>
+
+
+      <section class="row align-items-start">
+        <div class="col-lg-7">
+      <!-- Optional: if you want more copy later, add it here -->
+        </div>
+
+            </div>
+            <div class="col-lg-5">
+                <section class="chalkboard">
+                    <h2 class="h5 chalk-title">Today's Menu</h2>
+                           <ul class="chalk-list">
+                            <li>Mini hearts</li>
+                            <li>Love</li>
+                            <li>Hugs</li>
+                            <li>Kisses</li>
+                            <li>Romance</li>
+                            <li>Mini Kisses</li>
+                            </ul>
+                </section>
+            </div>
+            </section>
+
+      <section class="cupboard">
+        <h2 class="h5 special-title">Valentine’s Day Special</h2>
+
+        <p class="mb-2 special-text">
+          On the menu today is a Valentine’s Day special
+        </p>
+
+        <p class="mb-3 special-text">
+          Click the heart cake to open it
+        </p>
+
+        <button id="cakeButton" class="cake-btn" type="button" aria-label="Open the cake">
+        ❤️
+        </button>
+
+        <div id="cakeCard" class="hidden mt-3">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="h6 card-title mb-2">A sealed note comes with this cake</h3>
+              <p class="small mb-3">
+                There’s a letter inside — a small love shrine
+              </p>
+              <a class="btn btn-sm btn-primary" href="valentine.html">💌 Open the envelope</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="py-4 bg-light">
+      <div class="container d-flex justify-content-between align-items-center flex-wrap">
+        <small class="text-muted">© 2026 Cabin Woman</small>
+        <a class="small" href="index.html">Go to the cabin →</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
